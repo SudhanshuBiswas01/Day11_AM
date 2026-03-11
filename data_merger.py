@@ -3,7 +3,7 @@ import json
 from pathlib import Path
 from datetime import datetime
 
-# --- Step 1: Read all CSV files using pathlib.glob ---
+# --- Step 1: Read all CSV files using pathlib.glob -----
 data_folder = Path(".")
 all_rows = []
 
